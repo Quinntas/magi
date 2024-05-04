@@ -30,7 +30,7 @@ export function Product(props: ProductProps) {
                     height={600}
                     className="shrink-0 group-hover:block hidden"
                 />
-                <div className="flex flex-col text-left items-start justify-start w-full opacity-0 group-hover:opacity-100 transition-opacity ease-in-out  ">
+                <div className="flex flex-col text-left items-start justify-start w-full ">
                     <span className={''}>{props.product.name}</span>
                     <span className={''}>
                         {(props.product.price - props.product.discount).toLocaleString('pt-BR', {
